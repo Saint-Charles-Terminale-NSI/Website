@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NSI | Projet Terminale 2020-2021</title>
+        <link rel ="stylesheet" type="text/css" href="Term2020-2021.css">
+        <meta charset="utf-8"/>
+        <meta name="author" content="Alban Rouillé">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <br>
+        <br>
+        <!--Classe projet promo Terminale-->
+        <div class="Main">
+            <br>
+            <h1>Bienvenue sur les projets des Terminales de la promo 2020-2021</h1>
+            <br>
+            <a href="/Home.html">Page d'acceuil</a>
+            <br>
+            <br>
+        </div>
+
+        <!-- Fond animé -->
+        <canvas class="background"></canvas>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+        <script>window.onload = function() {
+            Particles.init({
+              selector: '.background',
+              color: ["#88c8ff"],
+              connectParticles: true
+            });
+          };</script>
+    </body>
+</html>

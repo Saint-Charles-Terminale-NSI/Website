@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NSI | Projet Terminale</title>
+        <link rel ="stylesheet" type="text/css" href="Css/Home.css">
+        <meta charset="utf-8"/>
+        <meta name="author" content="Alban Rouillé">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <br>
+        <br>
+        <!--Classe principale-->
+        <div class ="Main">
+            <br>
+            <h1>Projet NSI Terminale</h1>
+            <p><strong>Bienvenue sur le projet NSI Terminale, ce projet à pour but de montrer vos compétences acquérit en informatique durant vos deux années de NSI.</strong></p>
+            <br>
+            <p>Pour cela vous devrez réaliser un projet en groupe ou seul, comme vous le souhaitez.
+                Ce projet peut se faire dans le langage de votre choix (si vous voulez utiliser un langage qui n'est pas vu en cours demander à votre prof).</p>
+            <br>
+            <p>Quant au sujet du projet c'est vous qui décidez de ce que vous voulez faire, la seule contrainte imposée est de faire un site web pour expliquer votre projet (page HTML et CSS).</p>
+            <br>
+            <p>Bonne chance pour vos projets, et si vous le souhaitez vous pouvez consulter les projets des années antérieurs ainsi que leurs codes sources sur la page Github.</p>
+            <br>
+            <img src="Img/projet.png">
+            <br>
+            <br>
+        </div>
+        
+        <br>
+
+        <!--Classe projet promo Terminale-->
+        <div class="TermProjets">
+            <br>
+            <h1>Projets NSI Terminale Année 2020-2021</h1>
+            <br>
+            <a href="Page_Projets//Term2020-2021/Term2020-2021.html">Projets 2020-2021</a>
+            <br>
+            <br>
+        </div>
+
+        <!-- Fond animé -->
+        <canvas class="background"></canvas>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+        <script>window.onload = function() {
+            Particles.init({
+              selector: '.background',
+              color: ["#88c8ff"],
+              connectParticles: true
+            });
+          };</script>
+    </body>
+</html>
