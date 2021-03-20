@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: #151019;
-  z-index: -1;
 }
 
 .background {
@@ -19,10 +18,8 @@ body {
     text-align: center;
 	margin: auto;
     width: 80%;
-    height: auto;
     background-color: #0A080C;
     border-radius: 10px;
-    z-index: 0;
 }
 
 .Main p
@@ -45,7 +42,7 @@ body {
     height: auto;
 }
 
-.Main a
+.button
 {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -58,3 +55,47 @@ body {
     margin: 4px 2px;
     cursor: pointer;
 }
+
+.card a
+{
+    text-decoration: none;
+}
+.card {
+    display: flex;
+    margin: auto;
+    width:25em;
+    height:20em;
+    background-color: #0A080C;
+    transition:0.5s width ease;
+    overflow:hidden;
+    border-radius:1em
+}
+
+  .card h1 {
+    color: #4CAF50;
+    margin: auto;
+    margin-left: 165px;
+  
+  }
+  
+  .card img {
+    height:100%;
+    width:auto;
+  }
+  
+  .card:hover p {
+    opacity: 1;
+  }
+  .card:hover {
+      width: 50em;
+  }
+  .card p {
+    opacity: 0;
+    font-family: Trench;
+    font-size: 25;
+    color: white;
+  }
+  span {
+      color: #4CAF50;
+      font-family: Trench
+  }

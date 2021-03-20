@@ -11,25 +11,46 @@
     <body>
         <br>
         <br>
-        <!--Classe projet promo Terminale-->
+        <!--Classe projet promo Terminale 2020-2021-->
         <div class="Main">
             <br>
             <h1>Bienvenue sur les projets des Terminales de la promo 2020-2021</h1>
             <br>
-            <a href="/Home.html">Page d'acceuil</a>
+            <a class="button" href="/Website/Home.html">Page d'acceuil</a>
             <br>
             <br>
+            <div class="card">
+                <img src="Anagrame"/>
+                <div class="Main">
+                    <a href="/Website/Home.html">
+                    <p>
+                        <span>Nom:</span> 
+                        Anagrame
+                        <br>
+                        <span>Date de création:</span>
+                        2020
+                        <br>
+                        <span>Créateur:</span>
+                        Alban Rouillé
+                        <br>
+                        <span>Langage:</span>
+                        Python
+                        <br>
+                    </p></a>
+                </div>
+            </div>
         </div>
 
         <!-- Fond animé -->
         <canvas class="background"></canvas>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
-        <script>window.onload = function() {
-            Particles.init({
-              selector: '.background',
-              color: ["#88c8ff"],
-              connectParticles: true
-            });
-          };</script>
+        <script>
+            window.onload = function() {
+                Particles.init({
+                selector: '.background',
+                color: ["#88c8ff"],
+                connectParticles: true});
+            };
+        </script>
     </body>
 </html>
