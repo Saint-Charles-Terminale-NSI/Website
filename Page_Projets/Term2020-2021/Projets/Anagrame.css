@@ -1,0 +1,47 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #101010;
+}
+
+.Main
+{
+    text-align: center;
+	  margin: auto;
+    width: 80%;
+}
+
+.Main p
+{
+    width: 90%;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.Main h1
+{
+    color: white;
+}
+
+.Main img
+{
+    border-radius: 10px;
+    width: 50%;
+    height: auto;
+}
+
+.button
+{
+    background-color: #4cafa7; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
