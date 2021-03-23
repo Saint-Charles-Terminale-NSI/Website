@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Oswald&display=swap');
+
 html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #101010;
+}
+body {
+  background-color: #101010;	
 }
 
 .Main
 {
     text-align: center;
-	  margin: auto;
+	margin: auto;
     width: 80%;
 }
 
@@ -18,11 +22,13 @@ body {
     color: white;
     text-align: center;
     margin: auto;
+	font-family: Lexend;
 }
 
 .Main h1
 {
     color: white;
+	font-family: Oswald;
 }
 
 .Main img
@@ -44,4 +50,5 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+	font-family: Lexend;
 }

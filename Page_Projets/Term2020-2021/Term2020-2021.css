@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Quicksand:wght@300&family=Staatliches&display=swap');
 html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #151019;
+}
+
+body{
+  background-color: #151019;	
 }
 
 .background {
@@ -28,17 +32,19 @@ body {
     color: white;
     text-align: center;
     margin: auto;
+	font-family: Quicksand;
 }
 
 .Main h1
 {
     color: white;
+	font-family: Oswald;
 }
 
 .Main img
 {
     border-radius: 10px;
-    width: auto;
+    width: 50%;
     height: auto;
 }
 
@@ -54,6 +60,7 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+	font-family: Staatliches;
 }
 
 .card a
@@ -75,7 +82,7 @@ body {
     color: #4CAF50;
     margin: auto;
     margin-left: 165px;
-  
+ 	font-family: Oswald;
   }
   
   .card img {
@@ -91,11 +98,11 @@ body {
   }
   .card p {
     opacity: 0;
-    font-family: Trench;
+    font-family: Quicksand;
     font-size: 25;
     color: white;
   }
   span {
       color: #4CAF50;
-      font-family: Trench
+      font-family: Quicksand;
   }

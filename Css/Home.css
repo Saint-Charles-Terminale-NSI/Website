@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Quicksand:wght@300&family=Staatliches&display=swap');
 html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #151019;
-  z-index: -1;
+}
+
+body
+{
+  background-color: #151019;	
 }
 
 .background {
@@ -22,7 +26,6 @@ body {
     height: auto;
     background-color: #0A080C;
     border-radius: 10px;
-    z-index: 0;
 }
 
 .Main p
@@ -31,17 +34,19 @@ body {
     color: white;
     text-align: center;
     margin: auto;
+	font-family:Quicksand;
 }
 
 .Main h1
 {
     color: white;
+	font-family: Oswald;
 }
 
 .Main img
 {
     border-radius: 10px;
-    width: auto;
+    width: 50%;
     height: auto;
 }
 
@@ -53,7 +58,6 @@ body {
     height: auto;
     background-color: #0A080C;
     border-radius: 10px;
-    z-index: 0;
 }
 
 .TermProjets p
@@ -67,6 +71,7 @@ body {
 .TermProjets h1
 {
     color: white;
+	font-family: Oswald;
 }
 
 .TermProjets a
@@ -81,4 +86,5 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+	font-family: Staatliches;
 }
